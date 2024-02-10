@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+body{
+    background-color: antiquewhite;
+    width: 80%;
+    max-width: 1000px;
+
+    margin: auto;
+    margin-top: 20px;
+    padding: 30PX;
+    
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+header, main{
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 100px;
+    margin: 20px;
+}
+
+h1, h2{
+    font-family: 'Workbench', sans-serif; ;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+img.top{
+    width: 100px;
+    float: left;
+}
+
+@media only screen and (max-width: 700px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    h1{
+        text-align: center;
+        background-color: white;
+        font-size: 1.6em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imgtop{
+        display: none;
+    }
+
+    nav a{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+        background-color: aquamarine;
+        text-align: center;
+        text-decoration: none;
+        margin-left: -8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    h2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    ul{
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    h2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    ul{
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+}
